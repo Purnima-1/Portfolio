@@ -25,7 +25,7 @@ const Info = () => {
 
     <Card className = 'my-3 p-3 rounded'>
        
-            <Card.Img src = {info.image} variant = 'top' />
+            <Card.Img class="img" src = {info.image} variant = 'top' />
              <Card.Body>
                    <Card.Title as='div'>
                 <strong>{info.lines}</strong>

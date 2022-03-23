@@ -4,22 +4,26 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
   return (
-    <header>
-    <Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
-      <Container>
+    <header >
+    <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Container >
         
+        <LinkContainer to="/">
         <Navbar.Brand className ='name'>
-          <a href ='/'>
-          Purnima Kumar  </a></Navbar.Brand>
+          Purnima Kumar  
+          </Navbar.Brand>
+          </LinkContainer>
           
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            
-            <Nav.Link ><i className="fa-solid fa-briefcase"></i> Work Experience</Nav.Link>
-            
+          <LinkContainer to="/projects">
+            <Nav.Link ><i className="fa-solid fa-star"></i> Projects</Nav.Link></LinkContainer>
+            <LinkContainer to="/education">
             <Nav.Link ><i className='fa-solid fa-graduation-cap'></i> Education</Nav.Link>
-           
+            </LinkContainer>
+            <LinkContainer to="/workex">
+            <Nav.Link ><i className="fa-solid fa-briefcase"></i> Work Experience</Nav.Link></LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

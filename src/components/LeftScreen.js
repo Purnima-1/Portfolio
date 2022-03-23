@@ -14,10 +14,10 @@ const LeftScreen = ({info}) => {
               <Links myInfo = {myInfo}/>
             </Col>
     ))} */}
-<Col sm={12} md={4} lg={3} xl={3}>
+<Col sm={12} md={4} lg={3} xl={4}>
             <Info />
 </Col>
-<Col sm={12} md={8} lg={9} xl={9}>
+<Col sm={12} md={8} lg={9} xl={8}>
   <Links/>
 </Col>
     </Row>

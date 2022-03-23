@@ -7,18 +7,19 @@ const Header = () => {
     <header>
     <Navbar bg="light" variant="light" expand="lg" collapseOnSelect>
       <Container>
-        <LinkContainer to="/">
-        <Navbar.Brand className ='brand'>Purnima Kumar</Navbar.Brand>
-        </LinkContainer>
+        
+        <Navbar.Brand className ='name'>
+          <a href ='/'>
+          Purnima Kumar  </a></Navbar.Brand>
+          
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <LinkContainer to= "/tickets">
-            <Nav.Link ><i className="fa-solid fa-ticket"></i> Work Experience</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/login">
-            <Nav.Link ><i className='fas fa-user'></i> Education</Nav.Link>
-            </LinkContainer>
+            
+            <Nav.Link ><i className="fa-solid fa-briefcase"></i> Work Experience</Nav.Link>
+            
+            <Nav.Link ><i className='fa-solid fa-graduation-cap'></i> Education</Nav.Link>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -2,6 +2,7 @@ import React from 'react'
 import { Container,Navbar,Nav} from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
+
 const Header = () => {
   return (
     <header >
@@ -24,6 +25,8 @@ const Header = () => {
             </LinkContainer>
             <LinkContainer to="/workex">
             <Nav.Link ><i className="fa-solid fa-briefcase"></i> Work Experience</Nav.Link></LinkContainer>
+            <LinkContainer to="/contact">
+            <Nav.Link >Contact me</Nav.Link></LinkContainer>
           </Nav>
         </Navbar.Collapse>
       </Container>

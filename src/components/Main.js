@@ -3,7 +3,7 @@ import { Col, Row } from 'react-bootstrap'
 import Info from './Info'
 import Links from './Links'
 
-const LeftScreen = ({info}) => {
+const LeftScreen = () => {
   return (
     <>
     <Row>

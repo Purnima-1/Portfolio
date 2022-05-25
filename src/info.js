@@ -13,7 +13,7 @@
 const info = {
     _id:1,
     image:'/images/pic.jpg',
-    lines:'Hello, I am Purnima Kumar',
+    lines:'Hello, I am Purnima Kumar, an aspiring coder!!',
     workex:'5 years',
     linkedIn: 'https://www.linkedin.com/feed/' 
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import {  Card } from "react-bootstrap";
 import info from '../info'
+import '../App.css'
    
 const Info = () => {
   return (
@@ -28,7 +29,7 @@ const Info = () => {
             <Card.Img class="img" src = {info.image} variant = 'top' />
              <Card.Body>
                    <Card.Title as='div'>
-                <strong>{info.lines}</strong>
+                <h5>{info.lines}</h5>
                 </Card.Title>
                {/* <Card.Text as = 'h3'>${product.price}</Card.Text>    */}
         </Card.Body>
